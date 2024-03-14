@@ -16,5 +16,16 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button按我一下_Click(object sender, EventArgs e)
+        {
+            //button按鍵.Text = "我已經被按過了";
+            Form form = new FormButton();
+            form.Show();
+        }
     }
 }
