@@ -30,5 +30,26 @@ namespace WindowsFormsApp1
                 btnClick.Text = "請按我一下";
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            label1.Text = "按鈕被按過了";
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string tmp = labCount.Text;
+            int sum = Int32.Parse(tmp) + 1;
+            labCount.Text = sum.ToString();
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            string tmp = labCount.Text;
+            int sum = Int32.Parse(tmp)-1;
+            labCount.Text = sum.ToString();
+        }
     }
 }
