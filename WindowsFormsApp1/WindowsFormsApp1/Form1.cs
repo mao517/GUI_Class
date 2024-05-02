@@ -54,6 +54,23 @@ namespace WindowsFormsApp1
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //button按鍵.Text = "我已經被按過了";
+            Form form = new Formtimer();
+            form.Show();
+        }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            //button按鍵.Text = "我已經被按過了";
+            Form form = new FormButton2();
+            form.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -58,6 +58,18 @@
     <Compile Include="FormButton.Designer.cs">
       <DependentUpon>FormButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormButton2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormButton2.Designer.cs">
+      <DependentUpon>FormButton2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formtimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formtimer.Designer.cs">
+      <DependentUpon>Formtimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormButton2.resx">
+      <DependentUpon>FormButton2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formtimer.resx">
+      <DependentUpon>Formtimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

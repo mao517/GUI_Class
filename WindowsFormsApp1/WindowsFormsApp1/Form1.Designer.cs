@@ -35,15 +35,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.timer = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnBotton
             // 
-            this.btnBotton.Location = new System.Drawing.Point(48, 150);
+            this.btnBotton.Location = new System.Drawing.Point(334, 274);
             this.btnBotton.Name = "btnBotton";
-            this.btnBotton.Size = new System.Drawing.Size(75, 23);
+            this.btnBotton.Size = new System.Drawing.Size(161, 101);
             this.btnBotton.TabIndex = 0;
-            this.btnBotton.Text = "按鈕";
+            this.btnBotton.Text = "加減";
             this.btnBotton.UseVisualStyleBackColor = true;
             this.btnBotton.Click += new System.EventHandler(this.button按我一下_Click);
             // 
@@ -53,6 +55,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -98,11 +101,33 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // timer
+            // 
+            this.timer.Location = new System.Drawing.Point(556, 274);
+            this.timer.Name = "timer";
+            this.timer.Size = new System.Drawing.Size(151, 101);
+            this.timer.TabIndex = 7;
+            this.timer.Text = "計時器";
+            this.timer.UseVisualStyleBackColor = true;
+            this.timer.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(81, 274);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(161, 101);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "計算器";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.timer);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -127,6 +152,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button timer;
+        private System.Windows.Forms.Button button2;
     }
 }
 
