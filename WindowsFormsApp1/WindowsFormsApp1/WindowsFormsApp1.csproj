@@ -64,6 +64,12 @@
     <Compile Include="FormButton2.Designer.cs">
       <DependentUpon>FormButton2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGameFinalPaws.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGameFinalPaws.Designer.cs">
+      <DependentUpon>FormGameFinalPaws.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formtimer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormButton2.resx">
       <DependentUpon>FormButton2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameFinalPaws.resx">
+      <DependentUpon>FormGameFinalPaws.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formtimer.resx">
       <DependentUpon>Formtimer.cs</DependentUpon>

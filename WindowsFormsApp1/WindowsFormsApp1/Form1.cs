@@ -72,5 +72,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //button按鍵.Text = "我已經被按過了";
+            Form form = new FormGameFinalPaws();
+            form.Show();
+        }
     }
-}
+  }

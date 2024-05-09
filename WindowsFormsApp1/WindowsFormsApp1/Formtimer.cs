@@ -28,7 +28,9 @@ namespace WindowsFormsApp1
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            //button按鍵.Text = "我已經被按過了";
+            Form form = new Formtimer();
+            form.Show();
         }
     }
 }
